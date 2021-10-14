@@ -1,0 +1,33 @@
+    <input type="checkbox" id="res-menu">
+    <label for="res-menu"><img src="../../assets/menuicon.png"> </label>
+  
+    <div class="menu">  
+      <nav class="row">
+          <img id="logo" src="../../assets/logo.svg" style="width: 10%;">
+           <ul style="width: 90%;">
+                  <li *ngFor="let item of menuList" ><a href="#"> {{item.Name}} </a></li>
+                  <li>
+                    <div class="dropdown">
+                          <a class="dropbtn">  <img src="../../assets/language-icon.svg"></a>
+                          <div class="dropdown-content">
+                          <a href="#">TR</a>
+                          <a href="#">CHN</a>
+                          </div>
+                        </div>
+                  </li>
+          </ul>
+      </nav>
+    </div>
+      
+
+
+
+  
+
+
+   
+
+  
+        
+
+

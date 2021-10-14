@@ -1,0 +1,52 @@
+
+.container3 {
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+    background-color: #E7E7E7;
+}
+
+.component3-title{
+  height:50%; 
+
+}
+
+.box{
+    width:50%;
+    height: auto;
+    height: 480px;
+    float: left;
+    display: block;
+}
+
+.dahsboard {
+ position:absolute;
+  max-width: 50%;
+  max-height: 480px;
+}
+
+.label-lightblue{
+  color:#4380EF!important;
+}
+
+h1 {
+  font-weight: lighter;
+}
+
+.w-40{
+  width: 40%;
+}
+
+
+@media (max-width:768px){
+
+  #container3{
+  
+    margin-top: 36px;
+    width: 100%;
+    min-height: auto;
+    position: relative;
+    background-color: #E7E7E7;
+  }
+
+}
