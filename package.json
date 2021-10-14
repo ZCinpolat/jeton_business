@@ -2,26 +2,33 @@
   "name": "app",
   "version": "0.0.0",
   "scripts": {
+
     "ng": "ng",
     "start": "node server.js",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "postinstall" : "ng build --aot --prod"
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "heroku-postbuild": "ng build --prod"
+
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "~12.2.0",
+    "@angular/cli": "~12.2.10",
     "@angular/common": "~12.2.0",
     "@angular/compiler": "~12.2.0",
+    "@angular/compiler-cli": "~12.2.0",
     "@angular/core": "~12.2.0",
     "@angular/forms": "~12.2.0",
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
     "express": "^4.17.1",
+    "path": "^0.12.7",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
+    "typescript": "~4.3.5",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
@@ -38,9 +45,8 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.3.5"
   },
-  "enginess" : {
-    "node" : "~12.16.2",
-    "npm" : "~6.14.4" 
+  "engines": {
+    "node": "12.18.2",
+    "npm": "6.14.5"
   }
-
 }

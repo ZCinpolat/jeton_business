@@ -1,0 +1,141 @@
+.container2 {
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+  }
+  
+  .box{
+    width:50%;
+    height: auto;
+    height: 480px;
+    float: left;
+    display: block;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #4984EF;
+    border-color:  #E7E7E7;
+    font-size: 16px;
+    border-radius: 6px;
+    height: 48px;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .box-center .box-inline{
+    margin: 20px 20px 20px 20px
+  }
+  
+  
+  .centered{
+    width: 220px;
+    height: 240px;
+    margin-top:120px;
+    margin-left:200px;
+    border: solid 1px black;
+  }
+  
+  .dahsboard {
+  position:absolute;
+  max-width: 100%;
+  max-height: 480px;
+  }
+  
+  .lightblue{
+  color:#4380EF!important;
+  font-weight: 600;
+  }
+  
+  h1 {
+    font-weight: 600;
+  }
+  
+  .box-center{
+    display: inline-block;
+    width: 50%;
+    height: 70%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 120px;
+    border: solid 1px gray;
+    border-radius: 2px;
+  }
+  
+  
+  #left, #right { 
+    position: inline-block;
+    width: 50%; 
+    height: auto;
+    height: 240px;
+  } 
+  
+  #left  {
+    float:left; 
+  
+  }
+  
+  #right { 
+   float:right; 
+  } 
+  
+  .box-line-left{
+    width:10%;
+    height: auto;
+    float: left;
+    display: block;
+    height: 60px;
+  }
+  
+  .box-line-right{
+    width:90%;
+    height: auto;
+    float: left;
+    display: block;
+    height: 60px;
+  }
+  
+  .text-muted{
+    color: #989898;
+    font-weight: lighter;
+  }
+  
+  .component2-title{
+    height:50%; line-height: 200px;
+  }
+  
+  
+  h3{
+    font-size: 32px;
+    font-weight: lighter;
+    }
+  
+    @media (max-width:768px){
+  
+      .container2 {
+        height: 46%;
+        line-height: 63px;
+    }
+  
+    .box {
+      width: 100%;
+      height: auto;
+      display: block;
+  }
+  
+  .text-muted{
+    margin-top: -49px
+  }
+  
+  .box-center {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    border: solid 1px gray;
+    border-radius: 2px;
+  }
+  
+  }
+  

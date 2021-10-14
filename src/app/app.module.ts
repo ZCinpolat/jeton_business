@@ -11,6 +11,9 @@ import { Component3Component } from './component3/component3.component';
 import { Component4Component } from './component4/component4.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
+import { SendMoneyComponent } from './send-money/send-money.component';
+import { BusinessAccountComponent } from './business-account/business-account.component';
+import { DepositMoneyComponent } from './deposit-money/deposit-money.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +25,9 @@ import { LoginComponent } from './login/login.component';
     FooterComponent,
     LoginComponent,
     NavComponent,
+    SendMoneyComponent,
+    BusinessAccountComponent,
+    DepositMoneyComponent,
 
   ],
   imports: [
